@@ -1,6 +1,8 @@
 /*
 WARNING: DO NOT USE.
 Tried to imitate the Blowfish encryption and failed miserably. It's just too insecure because of known plaintext attack.
+Also, the data gets converted to base-64 and joined using commas which sucks.
+1 comma in your plaintext = rekt because it can't encrypt/decrypt anymore.
 */
 class CWTCipher {
     constructor(password)
