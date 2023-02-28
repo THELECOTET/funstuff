@@ -1,3 +1,7 @@
+/*
+WARNING: DO NOT USE.
+Tried to imitate the Blowfish encryption and failed miserably. It's just too insecure because of known plaintext attack.
+*/
 class CWTCipher {
     constructor(password)
     {
@@ -36,3 +40,4 @@ class CWTCipher {
 
 let fs = require("fs");
 let cipher = new CWTCipher("");
+// etc...
